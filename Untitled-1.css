@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #FF9A4B;
+  height: 50px;
+}
+
+.list {
+  background-color:#FF9A4B;
+  color: white;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 3px;
+}
+
+main {
+  width: 960px;
+  display: flex;
+  margin: 50px auto;
+}
+
+.main-box {
+  width: 300px;
+  background-color: #EEEEEE;
+  position: relative;
+  padding: 10px;
+}
+
+.main-box:nth-child(1),
+.main-box:nth-child(2) {
+  margin-right: 30px;
+}
+
+.img1 {
+  background-image: url(../../caravan/img3/flow01.png);
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+  }
+
+.img2 {
+  background-image: url(../../caravan/img3/flow02.png);
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.img3 {
+  background-image: url(../../caravan/img3/flow03.png);
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+
+h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+
+footer{
+  background-color: #AAAAAA;
+  height: 50px;
+}
